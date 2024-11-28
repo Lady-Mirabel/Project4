@@ -1,5 +1,5 @@
-import BookingPage from "./components/Bookingpage";
 import { Routes, Route } from "react-router-dom";
+import BookingPage from "./components/BookingPage";
 import memefi from "./assets/Major.webp";
 import Services from "./components/services";
 import Products from "./components/products";
