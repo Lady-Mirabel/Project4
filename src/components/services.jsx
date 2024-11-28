@@ -6,7 +6,7 @@ import movie from "../assets/movie.jpg";
 import two from "../assets/two bed.webp";
 import one from "../assets/one bed.webp";
 import junior from "../assets/junior_suite.webp";
-import president from "../assets/president.jpg";
+import president from "../assets/President.jpg";
 import executive from "../assets/executive.jpg";
 import deluxe from "../assets/deluxe-1.jpg";
 import logo from "../assets/learn.jpg";
