@@ -1,26 +1,20 @@
-function Footer(){
-    return(
-        <div className="flex text-white">
-            <div className="flex-1 flex justify-items-start flex-col p-4">
-             Copyright All Right Reserved 2024, Oluaka Institute Of Technology, Obinze
-             Powered by BossLady
-            </div>
-            <div className="flex-1 flex-col gap-4">
-                <div className="m-4">
-                    <textarea name="text" id="comment....." className="rounded-md"></textarea>
-                </div>
-                <div>
-                    <input type="email" placeholder="Email" className="w-60 rounded-md m-4"/>
-                </div>
-                <div>
-                    <button className="bg-slate-300 w-20 rounded-md m-4 text-black">Submit</button>
-                </div>
-            </div>
-            <div className="flex-1">
-                <p><b>For bookings, call: 08133328698</b></p>
-                <p><b>Send Feedback:</b></p>
-            </div>
+function Footer() {
+  return (
+    <div className="flex flex-col bg-slate-800 h-40 rounded-lg text-white pt-10 justify-center items-center">
+      <div className="flex-1">
+        Copyright All Right Reserved 2024, Oluaka Institute Of Technology,
+        Obinze Powered by BossLady
+      </div>
+      <div className="flex-1">
+        <p>For more information, call: 08133328698</p>
+        <p>Send Feedback: ogbujimirabel@gmail.com</p>
+        <div className="gap-5">
+          <span className="icon-whatsapp text-3xl text-green-500"></span>
+          <span className="icon-telegram text-3xl text-blue-500"></span>
+          <span className="icon-facebook text-3xl"></span>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
-export default Footer
+export default Footer;

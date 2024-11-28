@@ -1,6 +1,6 @@
 function RegisterForm(){
     return(
-        <div className=" flex flex-col gap-4 p-4 text-white px-32 bg-gradient-to-b from-slate-400 to-transparent">
+        <div className=" flex flex-col gap-4 p-4 text-black px-32 bg-slate-200">
             <div className="flex flex-col md:flex-row gap-3">
                 <input type="text" placeholder="Surname" className="rounded-md" />
                 <input type="text" placeholder="First Name" className="rounded-md" />
@@ -36,7 +36,7 @@ function RegisterForm(){
             <div>
                 <button className="bg-slate-300 w-20 h-[25px] rounded-md">Sign up</button>
             </div>
-            <div className="flex gap-4 text-white">
+            <div className="flex gap-4">
                 <p><b>Already have an account?</b></p>
                 <button>Log in</button>
             </div>
