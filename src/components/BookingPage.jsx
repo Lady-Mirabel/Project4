@@ -61,7 +61,7 @@ function BookingPage() {
         <div className="flex-1 text-3xl text-red-800 font-bold">
           <p>PAYMENT OPTIONS</p>
         </div>
-        <div className="flex-1 flex gap-5 flex-row">
+        <div className="flex-1 flex gap-5 flex-row md:w-96">
           <p>
             <b>Card:</b>
           </p>
