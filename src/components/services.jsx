@@ -13,7 +13,14 @@ import logo from "../assets/learn.jpg";
 import split from "../assets/Tennis.avif";
 import boss from "../assets/Case.avif";
 import chop from "../assets/cook.webp";
+import { useState } from "react";
 function Services() {
+  const [full, setFull] = useState(false);
+  const [full2, setFull2] = useState(false);
+  const [full3, setFull3] = useState(false);
+  const [full4, setFull4] = useState(false);
+  const [full5, setFull5] = useState(false);
+  const [full6, setFull6] = useState(false);
   return (
     <div className="flex flex-col bg-slate-200 w-full">
       <div className="flex justify-center items-center font-serif text-3xl m-5">
@@ -24,12 +31,22 @@ function Services() {
           <img src={deluxe} alt="deluxe" className="rounded-md w-full h-56" />
           <p className="font-serif text-2xl m-3">Deluxe Rooms</p>
           <p className="text-xs m-2">CELEBRATE BEAUTY IN SIMPLICITY</p>
-          <p className="m-3 line-clamp-3">
+          <p className={`m-3 ${full ? "" : "line-clamp-3"}`}>
             Our Deluxe Rooms, the standard rooms, come in a contemporary design
             and tastefully furnished to offer you the best comfort in a tranquil
             environment. Featuring plush king-size beds and stunning city views.
           </p>
-          <hr className="h-px m-10 w-56 bg-red-800 border-0"></hr>
+          <div className="flex-1 flex justify-center items-center">
+            {full ? null : (
+              <button
+                onClick={() => setFull(!full)}
+                className="bg-slate-700 text-white font-bold h-10 w-24 rounded-md"
+              >
+                Read more
+              </button>
+            )}
+          </div>
+          <hr className="h-px m-10 w-72 bg-red-800 border-0"></hr>
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
@@ -46,13 +63,23 @@ function Services() {
           />
           <p className="font-serif text-2xl m-3">Executive Rooms</p>
           <p className="text-xs m-2">CELEBRATE BEAUTY IN SIMPLICITY</p>
-          <p className="m-3 line-clamp-3">
+          <p className={`m-3 ${full2 ? "" : "line-clamp-3"}`}>
             Our Executive Deluxe rooms are tastefully furnished to offer you the
             best of enhanced space to accommodate your in room meeting needs
             both business or leisure. Boasting spacious layouts, upscale
             amenities.
           </p>
-          <hr className="h-px m-10 w-56 bg-red-800 border-0"></hr>
+          <div className="flex-1 flex justify-center items-center">
+            {full2 ? null : (
+              <button
+                onClick={() => setFull2(!full2)}
+                className="bg-slate-700 text-white font-bold h-10 w-24 rounded-md"
+              >
+                Read more
+              </button>
+            )}
+          </div>
+          <hr className="h-px m-10 w-72 bg-red-800 border-0"></hr>
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
@@ -69,12 +96,22 @@ function Services() {
           />
           <p className="font-serif text-2xl m-3">Presidential Suites</p>
           <p className="text-xs m-2">CELEBRATE BEAUTY IN SIMPLICITY</p>
-          <p className="m-3 line-clamp-3">
+          <p className={`m-3 ${full3 ? "" : "line-clamp-3"}`}>
             Our Presidential Suite is a private sanctuary that exudes luxury and
             elegance in décor and fitted with the latest security systems to put
             you at ease.
           </p>
-          <hr className="h-px m-10 w-56 bg-red-800 border-0"></hr>
+          <div className="flex-1 flex justify-center items-center">
+            {full3 ? null : (
+              <button
+                onClick={() => setFull3(!full3)}
+                className="bg-slate-700 text-white font-bold h-10 w-24 rounded-md"
+              >
+                Read more
+              </button>
+            )}
+          </div>
+          <hr className="h-px m-10 w-72 bg-red-800 border-0"></hr>
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
@@ -89,12 +126,22 @@ function Services() {
           <img src={junior} alt="junior" className="rounded-md w-full h-56" />
           <p className="font-serif text-2xl m-3">Junior Suites</p>
           <p className="text-xs m-2">CELEBRATE BEAUTY IN SIMPLICITY</p>
-          <p className="m-3 line-clamp-3">
+          <p className={`m-3 ${full4 ? "" : "line-clamp-3"}`}>
             Our Junior Suites separate the elegantly furnished living room
             fitted with a state-of-the-art entertainment centre in order to
             receive your guests away from serenity of the bedroom.
           </p>
-          <hr className="h-px m-10 w-56 bg-red-800 border-0"></hr>
+          <div className="flex-1 flex justify-center items-center">
+            {full4 ? null : (
+              <button
+                onClick={() => setFull4(!full4)}
+                className="bg-slate-700 text-white font-bold h-10 w-24 rounded-md"
+              >
+                Read more
+              </button>
+            )}
+          </div>
+          <hr className="h-px m-10 w-72 bg-red-800 border-0"></hr>
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
@@ -107,12 +154,22 @@ function Services() {
           <img src={one} alt="one" className="rounded-md w-full h-56" />
           <p className="font-serif text-2xl m-3">One Bedroom Suites</p>
           <p className="text-xs m-2">CELEBRATE BEAUTY IN SIMPLICITY</p>
-          <p className="m-3 line-clamp-3">
+          <p className={`m-3 ${full5 ? "" : "line-clamp-3"}`}>
             Our One Bedroom Suites are perfect for you as business or leisure
             guest when you want to have a meeting or entertain someone in the
             lavishly decorated living room that is separate from the bedroom.
           </p>
-          <hr className="h-px m-10 w-56 bg-red-800 border-0"></hr>
+          <div className="flex-1 flex justify-center items-center">
+            {full5 ? null : (
+              <button
+                onClick={() => setFull5(!full5)}
+                className="bg-slate-700 text-white font-bold h-10 w-24 rounded-md"
+              >
+                Read more
+              </button>
+            )}
+          </div>
+          <hr className="h-px m-10 w-72 bg-red-800 border-0"></hr>
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
@@ -125,12 +182,22 @@ function Services() {
           <img src={two} alt="two" className="rounded-md w-full h-56" />
           <p className="font-serif text-2xl m-3">Two Bedroom Suites</p>
           <p className="text-xs m-2">CELEBRATE BEAUTY IN SIMPLICITY</p>
-          <p className="m-3 line-clamp-3">
+          <p className={`m-3 ${full6 ? "" : "line-clamp-3"}`}>
             Our Presidential Suite is a private sanctuary that exudes luxury and
             elegance in décor and fitted with the latest security systems to put
             you at ease.
           </p>
-          <hr className="h-px m-10 w-56 bg-red-800 border-0"></hr>
+          <div className="flex-1 flex justify-center items-center">
+            {full6 ? null : (
+              <button
+                onClick={() => setFull6(!full6)}
+                className="bg-slate-700 text-white font-bold h-10 w-24 rounded-md"
+              >
+                Read more
+              </button>
+            )}
+          </div>
+          <hr className="h-px m-10 w-72 bg-red-800 border-0"></hr>
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
