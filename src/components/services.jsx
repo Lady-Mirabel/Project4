@@ -210,7 +210,7 @@ function Services() {
       <div className="flex-1 flex justify-center items-center">
         <Link
           to="/booknow"
-          className="bg-slate-400 h-14 w-28 rounded-2xl m-4 text-center "
+          className="bg-slate-400 h-12 w-28 rounded-2xl m-4 text-center "
         >
           <p className="mt-3">
             {" "}
