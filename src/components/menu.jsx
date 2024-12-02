@@ -6,7 +6,7 @@ function Menu() {
   console.log(open);
 
   return (
-    <div className="flex h-16 w-full justify-between px-2 bg-slate-800">
+    <div className="flex h-16 w-full justify-between px-2 bg-slate-800 rounded-t-lg">
       <div className="flex justify-start items-center gap-2 font-bold text-red-800 lg:flex text-xl">
         <img
           src={logo}

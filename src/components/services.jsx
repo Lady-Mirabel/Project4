@@ -33,7 +33,7 @@ function Services() {
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
-                <b>Price:$250</b>
+                <b>Price:150,000 NGN</b>
               </p>
             </div>
           </div>
@@ -56,7 +56,7 @@ function Services() {
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
-                <b>Price:$270</b>
+                <b>Price:180,000 NGN</b>
               </p>
             </div>
           </div>
@@ -78,7 +78,7 @@ function Services() {
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
-                <b>Price:$300</b>
+                <b>Price:200,000 NGN</b>
               </p>
             </div>
           </div>
@@ -98,7 +98,7 @@ function Services() {
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
-                <b>Price:$200</b>
+                <b>Price:100,000 NGN</b>
               </p>
             </div>
           </div>
@@ -116,7 +116,7 @@ function Services() {
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
-                <b>Price:$150</b>
+                <b>Price:50,000 NGN</b>
               </p>
             </div>
           </div>
@@ -134,7 +134,7 @@ function Services() {
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
-                <b>Price:$170</b>
+                <b>Price:80,000 NGN</b>
               </p>
             </div>
           </div>

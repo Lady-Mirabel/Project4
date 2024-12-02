@@ -19,7 +19,7 @@ function Content() {
           bg-gradient-to-b from-slate-200 to-slate-400 rounded-lg"
           >
             <b> Location:</b>
-            <p> Downtown, New York City</p>
+            <p>Umuobi-Assa Ohaji/Egbema L.G.A Imo State, Nigeria</p>
           </div>
           <div
             className="flex-1 m-10 flex items-center justify-center flex-col
@@ -32,9 +32,8 @@ function Content() {
             className="flex-1 m-10 flex justify-center items-center flex-col
            bg-gradient-to-b from-slate-200 to-slate-400 rounded-lg"
           >
-            <b> Price:</b>
-
-            <p>$150 - $250/night</p>
+            <b> Price:NGN</b>
+            <p>50,000-200,000/night</p>
           </div>
           <div
             className="flex-1 m-10 flex flex-col justify-center items-center
