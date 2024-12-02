@@ -7,13 +7,13 @@ function Menu() {
 
   return (
     <div className="flex h-16 w-full justify-between px-2 bg-slate-800 rounded-t-lg">
-      <div className="flex justify-start items-center gap-2 font-bold text-red-800 lg:flex text-xl">
+      <div className="flex justify-start items-center gap-2 font-bold text-red-500 lg:flex text-xl">
         <img
           src={logo}
           alt="logo"
           className="h-14 w-14 rounded-full ring-2 ring-black"
         />
-        <p className="font-serif">KINGS HOTELS</p>
+        <p className="font-serif">KINGS HOTELS & SUITES</p>
       </div>
       {open ? (
         <div

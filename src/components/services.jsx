@@ -46,7 +46,7 @@ function Services() {
               </button>
             )}
           </div>
-          <hr className="h-px m-10 w-72 bg-red-800 border-0"></hr>
+          <hr className="h-px m-10 md:w-72 w-56 bg-red-800 border-0"></hr>
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
@@ -79,7 +79,7 @@ function Services() {
               </button>
             )}
           </div>
-          <hr className="h-px m-10 w-72 bg-red-800 border-0"></hr>
+          <hr className="h-px m-10 md:w-72 w-56 bg-red-800 border-0"></hr>
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
@@ -111,7 +111,7 @@ function Services() {
               </button>
             )}
           </div>
-          <hr className="h-px m-10 w-72 bg-red-800 border-0"></hr>
+          <hr className="h-px m-10 md:w-72 w-56 bg-red-800 border-0"></hr>
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
@@ -141,7 +141,7 @@ function Services() {
               </button>
             )}
           </div>
-          <hr className="h-px m-10 w-72 bg-red-800 border-0"></hr>
+          <hr className="h-px m-10 md:w-72 w-56 bg-red-800 border-0"></hr>
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
@@ -169,7 +169,7 @@ function Services() {
               </button>
             )}
           </div>
-          <hr className="h-px m-10 w-72 bg-red-800 border-0"></hr>
+          <hr className="h-px m-10 md:w-72 w-56 bg-red-800 border-0"></hr>
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>
@@ -197,7 +197,7 @@ function Services() {
               </button>
             )}
           </div>
-          <hr className="h-px m-10 w-72 bg-red-800 border-0"></hr>
+          <hr className="h-px m-10 md:w-72 w-56 bg-red-800 border-0"></hr>
           <div className="flex">
             <div className="flex-1 flex justify-center items-center">
               <p>

@@ -22,6 +22,11 @@ function Footer() {
           <button>
             <span className="icon-facebook text-3xl"></span>
           </button>
+          <button>
+            <a href="http://gm.me/ogbujimirabel@gmail.com">
+              <span className="icon-mail-1 text-xl text-red-400"></span>
+            </a>
+          </button>
         </div>
       </div>
     </div>
