@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <div className="flex flex-col bg-slate-800 rounded-lg text-white justify-center items-center">
-      <div className="flex-1">
+    <div className="flex flex-col h-36 bg-slate-800 rounded-lg text-white justify-center items-center">
+      <div className="h-10">
         Copyright All Right Reserved 2024, Oluaka Institute Of Technology,
         Obinze Powered by BossLady
       </div>
