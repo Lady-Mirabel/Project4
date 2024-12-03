@@ -3,8 +3,8 @@ function Content() {
   return (
     <div className="flex flex-col bg-slate-200">
       <div className="flex-1 flex-col text-lg px-4 flex">
-        <p className="text-5xl font-serif m-10">ABOUT THE HOTEL</p>
-        <hr className="h-px m-10 md:w-96 w-60 bg-red-800 border-0"></hr>
+        <p className="md:text-5xl text-3xl font-serif m-10">ABOUT THE HOTEL</p>
+        <hr className="h-px m-10 md:w-96 w-72 bg-red-800 border-0"></hr>
         <p className="m-5">
           King's Hotel: Downtown's premier luxury oasis offering elegant rooms,
           rooftop dining, fitness center, free WiFi, exceptional service,

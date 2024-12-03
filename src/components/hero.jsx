@@ -8,7 +8,7 @@ function Hero() {
         className="w-screen h-96 absolute -z-10"
       />
       <div>
-        <p className="text-white md:text-7xl text-5xl font-serif">
+        <p className="text-white md:text-7xl text-4xl font-serif">
           Welcome To Kings Hotels
         </p>
       </div>

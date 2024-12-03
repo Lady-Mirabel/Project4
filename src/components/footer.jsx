@@ -20,7 +20,9 @@ function Footer() {
             </a>
           </button>
           <button>
-            <span className="icon-facebook text-3xl"></span>
+            <a href="https://www.facebook.com/profile.php?id=100085493441695">
+              <span className="icon-facebook text-3xl"></span>
+            </a>
           </button>
           <button>
             <a href="http://mail.ogbujimirabel@gmail.com">
